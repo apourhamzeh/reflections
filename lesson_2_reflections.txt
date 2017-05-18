@@ -10,6 +10,8 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+    If you're not sure that your changes mark a logical change in your project, you can add them to the staging area, keep working and see how those changes feel in the context of your project as a whole. If they do feel like they mark a logical change you can commit them before you stage any new changes.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
