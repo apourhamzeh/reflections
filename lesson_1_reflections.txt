@@ -35,4 +35,4 @@ could break something?
 
 Now that you have your workspace set up, what do you want to try using Git for?
 
-    Fill in your answer here
+    I want to use git to more easily make changes in code and be able to use github to collaborate with others on larger projects.
