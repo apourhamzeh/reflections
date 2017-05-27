@@ -6,24 +6,24 @@ local?
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    Perhaps you wouldn't want changes made by others to your remote repository to be automatically pulled to your local repository. This could lead to unwanted changes. Also, most of your work would probably be done on your local machine so in this case you wouldn't need to pull often compared to if you were working on GitHub's editors.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+    Forks are copies of repositories from a GitHub account onto another account. Clones are copies onto a directory from either GitHub or another directory. Forks are just clones to and from GitHub servers. Branches are series of connected commits that can be created from and merged to other branches. You would use a fork if you want to directly copy a GitHub repository to another GitHub account, rather than clone it, create a empty remote and push the clone onto the remote. You would create a branch if you want to work on stuff that you are not ready to commit to the original branch.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    Having the last known state of the remote branch stored locally lets you check if there are differences between that and your corresponding local branch. This is useful when you want to check differences between the local branch and the remote branch if they go out of sync. In this case you would use git fetch to update the remote copy and then git diff between the local and the remote branch.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    Without Git or GitHub I would probably collaborate through email. It would be more difficult to see exactly where changes were made, create branches, merge, organize different versions of files, and share and communicate with collaborators. It would be easier (or less expensive) to keep the work private however.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    You would want to make changes in a seperate branch when you are not sure whether the changes would work or when you want others to give their help or feedback on the changes. This process may take longer however. If you are confident in your changes you would want to make changes directly in master.
